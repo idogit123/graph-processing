@@ -4,11 +4,30 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
     <meta charset="utf-8" />
-    <title>Test</title>
+    <title>Insert</title>
   </head>
   <body>
-    <main id="p1"></main>
-    <main id="p2"></main>
+    <div id="graphContainer">
+      <main id="p1">
+        <div id="p1-topbar">
+          <button id="p1-button">Insert</button>
+          <p id="p1-title">RavenDB</p>
+        </div>
+      </main>
+      <main id="p2">
+        <div id="p2-topbar">
+          <button id="p2-button">Insert</button>
+          <p id="p2-title">MongoDB</p>
+        </div>
+      </main>
+      <main id="p3">
+        <div id="p3-topbar">
+          <button id="p3-button">Insert</button>
+          <p id="p3-title">DodoDB</p>
+        </div>
+      </main>
+    </div>
+    
     <script type="module" src="sketch.js"></script>
     <script type="module" src="Graph.js"></script>
   </body>

@@ -110,7 +110,7 @@ export class Graph {
     }
 
     newPoint(p) {
-        return this.avarage + p.noise(p.frameCount * this.noiseSpeed) * this.noiseMult
+        return this.avarage + p.noise(p.frameCount * this.noiseSpeed) * (this.max - this.min) * this.noiseMult 
     }
 
     reset(p) {

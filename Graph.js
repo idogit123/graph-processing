@@ -6,7 +6,8 @@ export class Graph {
         this.points = []
         this.currentSize = 0
 
-        this.min = 
+        this.min = min
+        this.max = max
     }
 
     sketch(p) {
